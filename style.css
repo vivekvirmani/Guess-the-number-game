@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+}
+
+.heading h2{
+    margin: 20px 0px 20px 0px;
+}
+
+.main p,form,button{
+    margin-top: 15px;
+}
+
+.main p{
+    font-size: 1.2rem;
+}
+
+#inputVal{
+   font-size: 1.3rem;
+   padding: 0.2rem;
+   width: 15rem;
+}
+
+button{
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    background-color:yellowgreen;
+    cursor:pointer;
+}
+
+button:disabled{
+    cursor: not-allowed;
+}
+
+
+
+
+
